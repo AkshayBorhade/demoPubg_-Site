@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PUBG-EVENTO</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<style>
+body {
+    font-family: Verdana, sans-serif;
+    background-image: url("img/back/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 40px;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 20%;
+  padding: 0 5px;
+  margin-left: 5%;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 50px;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+ a{
+  margin-top: 80%;
+ }
+ #duo{
+  margin-top: 125%;
+ }
+</style>
+</head>
+<body>
+  <br>
+  <center>
+  <h4 style="color:white">WelCome To PUBG-EVENTO</h4>
+  </center>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="container">
+          <div class="card img-fluid" style="width:300px">
+            <img class="card-img-top" src="img/card/1.jpg" alt="Card image" style="width:100%">
+            <div class="card-img-overlay">
+              <h4 class="card-title" style="color:purple">Solo</h4>
+              <p class="card-text" style="color:purple">*Matches Now Avilable</p>
+              <p class="card-text" style="color:purple">*Per Kill 10Rs Cash.</p>
+              <a href="match/solo.html" class="btn btn-primary">Enter Solo</a>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+          <div class="card img-fluid" style="width:300px">
+            <img class="card-img-top" src="img/card/2.jpg" alt="Card image" style="width:100%">
+            <div class="card-img-overlay">
+              <h4 class="card-title">Duo</h4>
+              <p class="card-text">Not Avilable </p>
+              <a href="match/duo.html" class="btn btn-primary" id="duo" onclick="return false;">Enter Duo</a>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+          <div class="card img-fluid" style="width:300px">
+            <img class="card-img-top" src="img/card/3.jpg" alt="Card image" style="width:100%">
+            <div class="card-img-overlay">
+              <h4 class="card-title">Squad</h4>
+              <p class="card-text">Not Avilable </p>
+              <p class="card-text">*Per Kill 10Rs Cash.</p>
+              <a href="match/squad.html" class="btn btn-primary"  onclick="return false;">Enter Sqaud</a>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<br><br><br><br><br><br>
+  <div class="footer">
+    <p>Author: It's ME...&#127183;</p>
+  </div>
+</body>
+</html> 
